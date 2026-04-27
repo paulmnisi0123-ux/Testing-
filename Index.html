@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StudyAI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>📚 StudyAI</h1>
+<p>Your Homework Helper powered by AI</p>
+</header>
+<div class="container">
+<div class="card">
+<h2>🤖 Ask AI</h2>
+<input type="text" id="question" placeholder="Ask anything...">
+<button onclick="askAI()">Ask</button>
+<p id="answer"></p>
+</div>
+<div class="card">
+<h2>⏰ Study Timer</h2>
+<h1 id="timer">25:00</h1>
+<button onclick="startTimer()">Start</button>
+<button onclick="resetTimer()">Reset</button>
+</div>
+<div class="card">
+<h2>🧠 Flashcards</h2>
+<input type="text" id="flashQ" placeholder="Question">
+<input type="text" id="flashA" placeholder="Answer">
+<button onclick="addFlashcard()">Add</button>
+<div id="flashcards"></div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+  </html>
